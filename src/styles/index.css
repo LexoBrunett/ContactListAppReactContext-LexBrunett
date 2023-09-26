@@ -1,3 +1,220 @@
-/* 
-    General Styles
+.custom-link {
+  color: #404040;
+  text-decoration: none;
+  font-family: "Caladea", serif;
+}
+
+.navbar-brand {
+  font-family: "Luckiest Guy", cursive;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+@media (max-width: 800px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+.navbar-brand:hover {
+  color: #714870;
+}
+.navbar {
+  background-color: #404040;
+}
+body {
+  background-color: #f2f2f2;
+}
+.card {
+  background-color: #bababa;
+}
+.card:hover {
+    background-color: #714870;
+    color: #f2f2f2;
+}
+.card:hover a, .card:hover p {
+    color: #f2f2f2;
+}
+a {
+  text-decoration: none;
+}
+.footertext {
+  font-family: "Luckiest Guy", cursive;
+  color: #714870;
+}
+.agenda-header {
+  font-family: "Luckiest Guy", cursive;
+  color: #714870;
+}
+.datosdecontacto {
+  font-family: "Caladea", serif;
+  color: #404040;
+}
+.contactbox {
+  background-color: #bfbfbf;
+}
+.navbar {
+  height: 100px;
+}
+.addnewcontact {
+  height: 100px;
+  background-color: #714870;
+  border-radius: 0%;
+  font-family: "Luckiest Guy", cursive;
+  --bs-btn-active-bg: #c6b0eb;
+  border: none;
+}
+.addnewcontact:hover {
+  background-color: #c6b0eb;
+  border-radius: 0%;
+  border: none;
+}
+.addnewuser {
+  height: 100px;
+  background-color: #714870;
+  border: none;
+  border-radius: 0%;
+  font-family: "Luckiest Guy", cursive;
+}
+.addnewuser:hover {
+  background-color: #c6b0eb;
+  border: none;
+  border-radius: 0%;
+}
+.addnewuser:disabled {
+  background-color: #545454;
+  border: none;
+  border-radius: 0%;
+}
+.form-control {
+  font-family: "Caladea", serif;
+  border-radius: 0%;
+  height: 100px;
+  background-color: #f6f4f4;
+  border: none;
+}
+.editform:hover {
+  background-color: #bababa;
+  color: #404040;
+}
+.fixed-button {
+  position: fixed;
+  top: 90%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 20;
+}
+
+.contactbtn {
+  height: 100px;
+  background-color: #714870;
+  border: none;
+  border-radius: 0%;
+  font-family: "Luckiest Guy", cursive;
+}
+.contactbtn:hover {
+  background-color: #c6b0eb;
+  border: none;
+  border-radius: 0%;
+}
+.contactbtnsave {
+  height: 100px;
+  background-color:#714870;
+  border: none;
+  border-radius: 0%;
+  font-family: "Luckiest Guy", cursive;
+  --bs-btn-active-bg: #08dd76;
+}
+.contactbtnsave:hover {
+  background-color: #c6b0eb;
+  border: none;
+  border-radius: 0%;
+}
+.selectbtn {
+  background-color: #714870;
+  color: white;
+  border-radius: 0%;
+  border: none;
+  font-family: "Caladea", serif;
+}
+.select {
+  background-color: #c6b0eb;
+}
+.backtomainbtn {
+  height: 100px;
+  background-color: #545454;
+  border: none;
+  border-radius: 0%;
+  font-family: "Luckiest Guy", cursive;
+  --bs-btn-active-bg: #9a2424;
+}
+.backtomainbtn:hover {
+  background-color: #714870;
+  border: none;
+  border-radius: 0%;
+}
+.backtomainbtn:active {
+  background-color: #9a2424;
+}
+.form-label {
+  font-family: "Caladea", serif;
+}
+.custom-form {
+  background-color: #bababa;
+  padding: 50px;
+  border-radius: 0%;
+}
+.custom-form:hover {
+  background-color: #bababa;
+  color: #404040;
+}
+.card {
+  border-radius: 0%;
+}
+.footer a {
+  color: #404040;
+}
+.footer a:hover {
+  color: #714870;
+}
+
+/*FULL PALETTE OF GREYS
+#404040
+#bababa
+#e6e6e6
+#f2f2f2
+#bfbfbf
+#404040
 */
+
+.deletecontactbtn {
+  background-color: #404040;
+  border: none;
+  border-radius: 0%;
+  font-family: "Luckiest Guy", cursive;
+  --bs-btn-active-bg: #9a2424;
+}
+.deletecontactbtn:hover {
+  background-color: #9a2424;
+  border: none;
+  border-radius: 0%;
+}
+.editcontactbtn {
+  background-color: #404040;
+  border: none;
+  border-radius: 0%;
+  font-family: "Luckiest Guy", cursive;
+  --bs-btn-active-bg: #c6b0eb;
+}
+.editcontactbtn:hover {
+  background-color: #c6b0eb;
+  border: none;
+  border-radius: 0%;
+}
+
+.imgcol {
+  max-height: 50px;
+}
+.fixed-height {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
